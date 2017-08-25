@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
+  groceries.keys.map do |food|
+    food
+  end.map do |item|
+    groceries[item]
+      end.flatten
 
-  
 
 end
